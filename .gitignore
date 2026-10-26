@@ -55,3 +55,12 @@ Thumbs.db
 
 # 압축 파일
 *.zip
+
+.venv/
+.venv311/
+__pycache__/
+*.pyc
+*.pt
+*.mp4
+.env
+*.log
