@@ -1,0 +1,57 @@
+
+# Python 가상환경
+.venv/
+.venv311/
+venv/
+env/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# AI 모델 및 학습 결과
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+weights/
+
+# 시험 영상 및 오디오
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+
+# 생성되는 시험 목록 및 분석 결과
+RTSP_streaming_list.xml
+KISAresult/
+results/
+output/
+
+# 로그 및 임시 파일
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# 개인 설정 및 환경변수
+.env
+.env.*
+!.env.example
+config.local.py
+secrets.json
+
+# IDE 및 OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 압축 파일
+*.zip
